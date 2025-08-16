@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blancbeu - Luxury Beauty Salon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo">Blancbeu</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#booking">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Experience Luxury Beauty</h2>
+            <p>Where elegance meets exceptional care</p>
+            <a href="#booking" class="btn">Book an Appointment</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>Hair Styling</h3>
+                    <p>Custom cuts, coloring, and treatments tailored to your unique style.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Facials</h3>
+                    <p>Luxurious treatments to rejuvenate and refresh your complexion.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Manicure & Pedicure</h3>
+                    <p>Premium nail care with lasting results.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Massage Therapy</h3>
+                    <p>Relaxing treatments to melt away tension.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Our Work</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <h2>Book Your Appointment</h2>
+            <form id="booking-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="">Select Service</option>
+                        <option>Hair Styling</option>
+                        <option>Facials</option>
+                        <option>Manicure & Pedicure</option>
+                        <option>Massage Therapy</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="date" required>
+                </div>
+                <button type="submit" class="btn">Submit Booking</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <h3>Blancbeu</h3>
+                <p>123 Beauty Avenue<br>New York, NY 10001</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Email: hello@blancbeu.com</p>
+            </div>
+            <div class="footer-hours">
+                <h4>Hours</h4>
+                <p>Monday - Friday: 9am - 7pm</p>
+                <p>Saturday: 10am - 5pm</p>
+                <p>Sunday: Closed</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Blancbeu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
